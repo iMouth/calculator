@@ -9,16 +9,17 @@ body {
 
 #wrapper {
   display: grid;
-  border: 1rem solid gray;
-  background-color: white;
+  border: 1.25rem solid rgb(200, 200, 200);
+  background-color: rgb(240, 240, 240);
   border-radius: 2rem;
+  box-shadow: 0 0 4rem 0.5rem rgb(214, 123, 123);
 }
 
 #output {
   display: grid;
   justify-content: end;
   padding-top: 3rem;
-  border-bottom: 1rem solid gray;
+  border-bottom: 1rem solid rgb(200, 200, 200);
   padding-left: 9rem;
   padding-bottom: 2rem;
   padding-right: 1rem;
@@ -45,13 +46,13 @@ body {
 }
 
 .calc:hover {
-  border: 0.2rem solid black;
-  background-color: black;
+  border: 0.2rem solid rgb(214, 123, 123);
+  background-color: rgb(214, 123, 123);
   color: white;
 }
 
 .calc:active {
-  background-color: gray;
+  background-color: rgb(200, 200, 200);
 }
 
 .resize {
@@ -62,5 +63,4 @@ body {
 #output {
   height: auto;
   width: 10rem;
-  color: b;
 }
